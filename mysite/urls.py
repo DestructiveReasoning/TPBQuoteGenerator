@@ -17,8 +17,6 @@ from django.contrib import admin
 
 from mysite.views import hello
 from mysite.views import clock
-from mysite.views import greeting
-from mysite.views import respond_with_random_quote
 from mysite.views import respond_with_tpb_quote
 
 import urllib
@@ -29,7 +27,5 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^hello/$', hello),
     url(r'^clock/', clock),
-    url(r'^greeting/$', greeting),
-    url(r'newrandom/$', respond_with_random_quote),
     url(r'newtpb/$', respond_with_tpb_quote)
 ]
