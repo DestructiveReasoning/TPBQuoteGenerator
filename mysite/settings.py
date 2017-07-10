@@ -102,7 +102,7 @@ USE_TZ = True
 #STATIC_ROOT= '/root/django/first/mysite/mysite/static/'
 SITE_ROOT = os.path.dirname(os.path.realpath(__file__))
 STATICFILES_DIRS = (
-    os.path.join(SITE_ROOT, '/root/django/first/mysite/mysite/static/'),
+    os.path.join(SITE_ROOT, 'static/'),
 )
 STATIC_URL = '/static/'
 
