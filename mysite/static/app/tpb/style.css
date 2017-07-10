@@ -1,0 +1,51 @@
+.funky {
+	color: #f4d533;
+}
+
+.quotemachine {
+	margin: 15%;
+	text-align: center;
+}
+
+.quotefield {
+	background-color: #ffffff;
+	border-radius: 10px;
+	padding: 20px;
+	opacity: 0.8;
+}
+
+.quote {
+	text-align: left;
+}
+
+.author {
+	text-align: right;
+}
+
+.glow {
+	opacity: 0.5;
+	width: 64;
+	height: 64;
+}
+
+#bubblesbtn {
+	filter: invert(100%);
+}
+
+#newquote {
+	opacity: 0.4;
+	background: rgba(0,0,0,0);
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 2px;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+footer {
+	text-align: center;
+}
+
+body {
+	font-family: 'Pavanam';
+}
